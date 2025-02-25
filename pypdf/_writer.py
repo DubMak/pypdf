@@ -225,7 +225,7 @@ class PdfWriter(PdfDocCommon):
             self._header = b"%PDF-1.3"
             self._info_obj = self._add_object(
                 DictionaryObject(
-                    {NameObject("/Producer"): create_string_object("pypdf")}
+                    {NameObject("/Producer"): create_string_object("DUBANALOG, INC")}
                 )
             )
 
